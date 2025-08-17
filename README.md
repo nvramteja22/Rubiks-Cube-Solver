@@ -29,8 +29,8 @@ rubik-cube-solver/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/[your-username]/rubik-cube-solver.git
-   cd rubik-cube-solver
+   git clone https://github.com/nvramteja22/Rubiks-Cube-Solver
+   cd Rubiks-Cube-Solver
    ```
 
 2. **Compile the project:**
@@ -49,7 +49,7 @@ rubik-cube-solver/
    **Manual compilation:**
    ```bash
    mkdir -p bin
-   javac -cp "lib/*" -d bin src/main/java/com/[username]/rubikcube/*.java
+   javac -cp "lib/*" -d bin src/com/ramteja/rubik/*.java
    ```
 
 ## Usage
@@ -70,10 +70,10 @@ chmod +x run.sh
 **Manual execution:**
 ```bash
 # Windows
-java -cp "bin;lib/*" com.[username].rubikcube.RubikCubeGui
+java -cp "bin;lib/*" com.ramteja.rubik.RubikCubeGUI
 
 # Mac/Linux  
-java -cp "bin:lib/*" com.[username].rubikcube.RubikCubeGui
+java -cp "bin:lib/*" com.ramteja.rubik.RubikCubeGUI
 ```
 
 ### How to Use
@@ -111,7 +111,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Author
 
-Created by Ram Teja - feel free to contact me with questions or suggestions!
+Created by Ram Teja - Feel free to contact me with questions or suggestions!
 
 ---
 
